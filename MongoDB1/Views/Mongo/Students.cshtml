@@ -1,0 +1,61 @@
+﻿@model MongoDB1.Models.StudentsModel
+@{
+    ViewData["Title"] = "Index";
+}
+
+@using (Html.BeginForm())
+{
+    <div class="row">
+        <div class="col-md-2">
+            @Html.TextBoxFor(ok => ok.Name,new{@class="form-control",@placeholder="Name"})
+        </div>
+        <div class="col-md-2">
+            @Html.TextBoxFor(ok => ok.Surname,new{@class="form-control",@placeholder="Surname"})
+        </div>
+        <div class="col-md-2">
+            @Html.TextBoxFor(ok => ok.Age,new{@class="form-control",@placeholder="Tel"})
+        </div>
+        <div class="col-md-2">
+            <button type="submit" name="operation" value="Add" class="btn btn-primary">Add</button>
+        </div>
+    </div>
+
+    <div>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Surname</th>
+                    <th>Tel</th>
+                    <th>Create</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.List)
+                {
+                    <tr>
+                        <td>
+                            @item.Id
+                        </td>
+                        <td>
+                            @item.Name
+                        </td>
+                        <td>
+                            @item.Surname
+                        </td>
+                        <td>
+                            @item.Age
+                        </td>
+                        <td>
+                            @item.CreatedAt.ToString("dd.MM.yyyy HH:mm:ss")
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+
+
+}

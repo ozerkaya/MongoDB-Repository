@@ -1,0 +1,161 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\ozer.kaya\\Source\\Repos\\ozerkaya\\MongoDB-Repository\\MongoDB1\\MongoDB1.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ozer.kaya\\Source\\Repos\\ozerkaya\\MongoDB-Repository\\MongoDB1\\MongoDB1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ozer.kaya\\Source\\Repos\\ozerkaya\\MongoDB-Repository\\MongoDB1\\MongoDB1.csproj",
+        "projectName": "MongoDB1",
+        "projectPath": "C:\\Users\\ozer.kaya\\Source\\Repos\\ozerkaya\\MongoDB-Repository\\MongoDB1\\MongoDB1.csproj",
+        "packagesPath": "C:\\Users\\ozer.kaya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ozer.kaya\\Source\\Repos\\ozerkaya\\MongoDB-Repository\\MongoDB1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ozer.kaya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/devops-sdx/_packaging/enigma-feed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\ozer.kaya\\Source\\Repos\\ozerkaya\\MongoDB-Repository\\MongoRL\\MongoRL.csproj": {
+                "projectPath": "C:\\Users\\ozer.kaya\\Source\\Repos\\ozerkaya\\MongoDB-Repository\\MongoRL\\MongoRL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.2, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.15.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\ozer.kaya\\Source\\Repos\\ozerkaya\\MongoDB-Repository\\MongoRL\\MongoRL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ozer.kaya\\Source\\Repos\\ozerkaya\\MongoDB-Repository\\MongoRL\\MongoRL.csproj",
+        "projectName": "MongoRL",
+        "projectPath": "C:\\Users\\ozer.kaya\\Source\\Repos\\ozerkaya\\MongoDB-Repository\\MongoRL\\MongoRL.csproj",
+        "packagesPath": "C:\\Users\\ozer.kaya\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ozer.kaya\\Source\\Repos\\ozerkaya\\MongoDB-Repository\\MongoRL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\ozer.kaya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://pkgs.dev.azure.com/devops-sdx/_packaging/enigma-feed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.15.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

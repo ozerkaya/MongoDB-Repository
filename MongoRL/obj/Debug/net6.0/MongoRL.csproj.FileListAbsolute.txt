@@ -1,0 +1,12 @@
+C:\Users\ozer.kaya\source\repos\MongoDB1\MongoRL\bin\Debug\net6.0\MongoRL.deps.json
+C:\Users\ozer.kaya\source\repos\MongoDB1\MongoRL\bin\Debug\net6.0\MongoRL.dll
+C:\Users\ozer.kaya\source\repos\MongoDB1\MongoRL\bin\Debug\net6.0\MongoRL.pdb
+C:\Users\ozer.kaya\source\repos\MongoDB1\MongoRL\obj\Debug\net6.0\MongoRL.csproj.AssemblyReference.cache
+C:\Users\ozer.kaya\source\repos\MongoDB1\MongoRL\obj\Debug\net6.0\MongoRL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ozer.kaya\source\repos\MongoDB1\MongoRL\obj\Debug\net6.0\MongoRL.AssemblyInfoInputs.cache
+C:\Users\ozer.kaya\source\repos\MongoDB1\MongoRL\obj\Debug\net6.0\MongoRL.AssemblyInfo.cs
+C:\Users\ozer.kaya\source\repos\MongoDB1\MongoRL\obj\Debug\net6.0\MongoRL.csproj.CoreCompileInputs.cache
+C:\Users\ozer.kaya\source\repos\MongoDB1\MongoRL\obj\Debug\net6.0\MongoRL.dll
+C:\Users\ozer.kaya\source\repos\MongoDB1\MongoRL\obj\Debug\net6.0\refint\MongoRL.dll
+C:\Users\ozer.kaya\source\repos\MongoDB1\MongoRL\obj\Debug\net6.0\MongoRL.pdb
+C:\Users\ozer.kaya\source\repos\MongoDB1\MongoRL\obj\Debug\net6.0\ref\MongoRL.dll
